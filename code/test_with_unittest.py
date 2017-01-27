@@ -10,7 +10,7 @@ class TestCod(unittest.TestCase):
         print(os.uname())
         self.assertEqual(code.math.add(1, 2), 3)
 
-#    def test_ohter(self):
+#    def test_other(self):
 #        self.assertEqual(code.math.add(1, 1, 1), 3)
 
 # vim: expandtab
