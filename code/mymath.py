@@ -1,3 +1,3 @@
 def add(*numbers):
-    return sum(numbers[0])
+    return sum(numbers)
     #return numbers[0]+numbers[1]
