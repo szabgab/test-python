@@ -7,7 +7,7 @@ class TestCode():
     def test_main(self):
         assert 2 == 2
         assert mymath.add(1, 2) == 3
-#        assert mymath.add(1, 1, 1) == 3
+        assert mymath.add(1, 1, 1) == 3
         assert mymath.add(-1, 1) == 0
 
 
