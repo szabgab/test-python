@@ -1,0 +1,5 @@
+#!/bin/bash
+pwd
+echo shell $SHELL
+echo WORKSPACE $WORKSPACE
+
