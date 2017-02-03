@@ -1,3 +1,3 @@
-import code.mymath
+import mycode.mymath
 
-print(code.mymath.add(2, 3))
+print(mycode.mymath.add(2, 3))

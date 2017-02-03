@@ -1,9 +1,9 @@
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import code.mymath
+import mycode.mymath
 class TestMe:
     def test_add(self):
-        assert code.mymath.add(2, 3) == 5
+        assert mycode.mymath.add(2, 3) == 5
 
     def test_example(self, tmpdir):
         path = str(tmpdir.join('abc'))
