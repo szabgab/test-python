@@ -4,7 +4,7 @@ echo shell $SHELL
 echo WORKSPACE $WORKSPACE
 
 rm -rf venv2
-virtualenv venv2 -p python
+virtualenv venv2
 source venv2/bin/activate
 pip install pytest
 echo "Start Testing"
