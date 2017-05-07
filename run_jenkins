@@ -10,4 +10,5 @@ pip install pytest
 echo "Start Testing"
 pytest --junitxml=test-results/$BUILD_NUMBER.xml
 #pytest --junitxml=../../jobs/test-python/test-results/$BUILD_NUMBER.xml
+echo Done
 
