@@ -11,4 +11,4 @@ class TestMe:
         os.system('python example.py > {}'.format(path))
         with open(path) as fh:
             result = fh.read()
-        assert result.rstrip("\n") == ["True", "False"]
+        assert result == "True\nFalse\n"

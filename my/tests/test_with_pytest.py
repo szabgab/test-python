@@ -6,7 +6,7 @@ import my.code
 class TestCode():
     def test_anagram(self):
         assert my.code.is_anagram("abc", "acb")
-        assert my.code.is_anagram("one", "two")
+        assert not my.code.is_anagram("one", "two")
 
 #    def test_multiword_anagram(self):
 #        assert my.code.is_anagram("ana gram", "naga ram")
