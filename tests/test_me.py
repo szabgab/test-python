@@ -1,13 +1,14 @@
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import mycode.mymath
+import my.code
+
 class TestMe:
     def test_add(self):
-        assert mycode.mymath.add(2, 3) == 5
+        assert my.code.is_anagram("abc", "cba")
 
     def test_example(self, tmpdir):
         path = str(tmpdir.join('abc'))
         os.system('python example.py > {}'.format(path))
         with open(path) as fh:
             result = fh.read()
-        assert result.rstrip("\n") == "5"
+        assert result.rstrip("\n") == ["True", "False"]

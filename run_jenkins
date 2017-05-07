@@ -3,11 +3,12 @@ pwd
 echo shell $SHELL
 echo WORKSPACE $WORKSPACE
 
-#rm -rf venv2
-#virtualenv venv2
-#source venv2/bin/activate
-#pip install pytest
-#echo "Start Testing"
+rm -rf venv2
+virtualenv venv2
+source venv2/bin/activate
+pip install pytest
+echo "Start Testing"
+pytest
 #pytest code/ --junitxml=test_results/$BUILD_NUMBER.xml
 
 

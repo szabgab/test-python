@@ -1,3 +1,4 @@
-import mycode.mymath
+import my.code
 
-print(mycode.mymath.add(2, 3))
+print(my.code.is_anagram("abc", "acb"))  # True
+print(my.code.is_anagram("one", "two"))  # False
