@@ -6,8 +6,8 @@ class TestMe:
     def test_is_anagram(self):
         assert my.code.is_anagram("abc", "cba")
 
-#    def test_is_multiword_anagram(self):
-#        assert my.code.is_anagram("a b c", "c b a")
+    def test_is_multiword_anagram(self):
+        assert my.code.is_anagram("a b c", "c b a")
 
     def test_example(self, tmpdir):
         path = str(tmpdir.join('abc'))
