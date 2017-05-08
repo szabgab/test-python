@@ -13,7 +13,7 @@ pytest --junitxml=test-results/$BUILD_NUMBER.xml
 # echo Done and now?
 
 pip install pylint
-export TERM="linux"
-pylint  --rcfile=pylint.cfg $(find my -name "*.py" -print | grep -v 'tests' | grep -v '__init__') > xpylint.log || exit 0
+# export TERM="linux"
+pylint  --rcfile=pylint.cfg $(find my -name "*.py" -print | grep -v 'tests' | grep -v '__init__') > pylint.log || exit 0
 
 
