@@ -6,3 +6,5 @@ def answer():
 
 def answer(x):
     return x
+def f():
+ y = x
